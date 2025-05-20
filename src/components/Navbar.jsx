@@ -18,7 +18,7 @@ function Navbar() {
       </div>
       <div className="btns">
         <button className="btn">العربية</button>
-        <button className="btn btn-primary">View Booklet</button>
+        <button className="btn btn-primary view-booklet">View Booklet</button>
       </div>
     </nav>
   );

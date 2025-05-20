@@ -91,6 +91,21 @@ z-index: -1;
   width: 75%;
 }
 
+@media screen and (max-width:992px) {
+  .view-booklet{
+    display: none;
+  }
+  .text-section .text-content{
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+.text-section .text{
+  font-size: 1.3rem;
+  width: 100%;
+}
+}
+
 
 
 /* Zone */
@@ -229,6 +244,17 @@ filter: brightness(0.8);
     width: 100%;
   }
   .recap-video video, .video iframe{
+    width: 100%;
+  }
+}
+@media screen and (max-width:1199px) {
+  .about-content{
+    flex-direction: column;
+  }
+  .video{
+    width: 100%;
+  }
+  .video iframe{
     width: 100%;
   }
 }
